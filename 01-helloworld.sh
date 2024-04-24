@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "welcome to hello world"
+echo  "this is my first program"
