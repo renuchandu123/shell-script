@@ -2,9 +2,7 @@
 
 
     USERID=$(id -u)
-     
-
-VALIDATE (){
+     VALIDATE (){
 
     echo "exit status:  $1"
     echo "what are you doing": $2
@@ -16,10 +14,8 @@ then
       exit 1 # manually  exit if error comes.
       else
 
-      echo "you are  super user ."
-
-      fi
-
+     echo "you are  super user ."
+     fi
       dnf install my sql -y
       VALIDATE  $? "installing mySQL" 
 
