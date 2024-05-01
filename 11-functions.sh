@@ -4,12 +4,12 @@
     USERID=$(id -u)
      VALIDATE (){
 
-    echo "exit status:  $1"
-    echo "what are you doing": $2
+       echo "exit status:  $1"
+        echo "what are you doing: $2"
     
-}
-if     [ $USERID   -ne 0 ]
-then
+     }
+     if     [ $USERID   -ne 0 ]
+     then
       please "run this script with root access."
       exit 1 # manually  exit if error comes.
       else
