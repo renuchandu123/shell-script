@@ -7,24 +7,24 @@ then
  
  echo "please run this script with root access"
        exit.1 # manually exit if error comes 
- else
+  else
   
      echo "you are super user"
- fi
+   fi
   
       dnf install mysql -y
 
  if[ $?  -ne 0 ]
- then
+  then
       echo "installation of my sql ....FAILURE"
        exit.1
-else
+  else
        echo "installation of my sql .....success"
-fi
+   fi
        dnf install git -y
 
   if[ $?  -ne 0]
-then
+  then
        echo "installation of git........ FAILURE"
         exit.1
   else
