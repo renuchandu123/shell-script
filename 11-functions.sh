@@ -10,7 +10,7 @@
 }
 if     [ $USERID   -ne 0 ]
 then
-      please  "run this script with root access."
+      please "run this script with root access."
       exit 1 # manually  exit if error comes.
       else
 
