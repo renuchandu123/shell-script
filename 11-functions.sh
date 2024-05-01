@@ -1,9 +1,10 @@
 #!/bin/bash
 
 
- USERID=$(id -u)
+    USERID=$(id -u)
+     
 
- VALIDATE (){
+VALIDATE (){
 
     echo "exit status:  $1"
     echo "what are you doing": $2
